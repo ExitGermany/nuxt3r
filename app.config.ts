@@ -3,7 +3,7 @@ import type Emoji from "./components/OgImage/Emoji.vue";
 export default defineAppConfig({
   general: {
     title: "Minted Directory",
-    logo: "",
+    logo: "/kleanthara.jpg",
     iconLogo: "fluent-emoji-flat:leaf-fluttering-in-wind",
   },
   site: {
@@ -12,10 +12,10 @@ export default defineAppConfig({
     // url is necessary for correct function of seo module.
     name: "Minted Directory",
     description: "Example Description",
-    url: "https://example.com",
+    url: "https://nuxt3r.nuxt.space",
     favicon: {
-      image: "",
-      emoji: "🍃",
+      image: "/kleanthara.jpg",
+      emoji: "/kleanthara.jpg",
     },
   },
   directory: {
@@ -29,7 +29,7 @@ export default defineAppConfig({
       },
     },
     grid: {
-      list: false,
+      list: true,
       emptyState: {
         text: "Seems that this entry is missing from the archives.",
         // options: button, simple, link
@@ -45,9 +45,12 @@ export default defineAppConfig({
         show: true,
         first: false,
         title: "Submit a template",
+
         description:
           "Submit a template to show off a good project to other people.",
+
         hideable: true,
+        icon: "i-pepicons-clapperboard",
       },
     },
     featured: {
@@ -100,7 +103,7 @@ export default defineAppConfig({
     description: "Best directory for my niche.",
     socials: {
       github: {
-        link: "",
+        link: "/kleanthara.jpg",
         icon: "tabler:brand-github",
       },
       facebook: {
@@ -112,11 +115,11 @@ export default defineAppConfig({
         icon: "tabler:brand-instagram",
       },
       x: {
-        link: "https://x.com/mark_bruderer",
+        link: "https://x.com/DeniOliK",
         icon: "tabler:brand-twitter",
       },
       youtube: {
-        link: "https://www.youtube.com/@mark_hacks",
+        link: "https://www.youtube.com/@deniskropp",
         icon: "tabler:brand-youtube",
       },
     },
